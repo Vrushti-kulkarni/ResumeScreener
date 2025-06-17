@@ -5,9 +5,19 @@ from datetime import datetime
 from dotenv import load_dotenv
 import google.generativeai as genai
 
+import streamlit as st
+
+# Load local .env file if it exists (for local dev)
 load_dotenv()
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+# Helper function to fetch secrets
+def get_secret(key):
+    return os.getenv(key) or st.secrets.get(key)
+
+api_key = get_secret("GOOGLE_API_KEY")
+
+
+genai.configure(api_key)
 model = genai.GenerativeModel('models/gemini-1.5-flash-latest')
 
 
