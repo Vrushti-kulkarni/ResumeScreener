@@ -17,7 +17,7 @@ def get_secret(key):
 api_key = get_secret("GOOGLE_API_KEY")
 
 
-genai.configure(api_key)
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel('models/gemini-1.5-flash-latest')
 
 
