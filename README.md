@@ -18,7 +18,7 @@ A powerful, AI-driven Streamlit app that analyzes your resume against job descri
 
 ## 📸 UI Preview
 
-![Resume Screener UI](![image](https://github.com/user-attachments/assets/b82e5672-bcad-4826-b501-d96790a27157))
+(![image](https://github.com/user-attachments/assets/b82e5672-bcad-4826-b501-d96790a27157))
 
 ---
 
