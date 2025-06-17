@@ -356,14 +356,7 @@ st.sidebar.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.sidebar.markdown("### 🔍 Analysis Types")
-st.sidebar.markdown("""
-- 📊 Job Insights: Understand job requirements
-- 🎯 Skills Gap: Identify missing skills  
-- 📈 Match Score: Get percentage compatibility
-- 🤖 ATS Check: Ensure ATS compatibility
-- 💡 Feedback: Receive improvement suggestions
-""")
+
 
 # Main content area with custom cards
 col1, col2 = st.columns([1, 1], gap="large")
