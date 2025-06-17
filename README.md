@@ -16,13 +16,6 @@ A powerful, AI-driven Streamlit app that analyzes your resume against job descri
 
 ---
 
-## 📸 UI Preview
-
-(![image](https://github.com/user-attachments/assets/b82e5672-bcad-4826-b501-d96790a27157))
-
----
-
-
 ## 🙋‍♀️ About
 
 [Vrushti Kulkarni](https://github.com/Vrushti-kulkarni)
